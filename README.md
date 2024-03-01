@@ -1,24 +1,16 @@
-# README
+# React App on Rails with Bun
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample app for a blog post, [Bun + React on Rails](https://yokolet.com/2024/03/01/bun-react-on-rails.html).
 
-Things you may want to cover:
+## Versions
+- Ruby 3.2.3
+- Rails 7.1.3.2
+- Bun 1.0.29
 
-* Ruby version
+## How to run
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Install Bun. See [https://bun.sh/docs/installation](https://bun.sh/docs/installation);
+2. `bundle install`
+3. `bun install`
+4. `bin/dev`
+5. Go to http://localhost:3000/pages/index
